@@ -499,7 +499,7 @@
                   "class": "element-shape hasNoOpenThreats isOutOfScope"
                 },
                 "text": {
-                  "text": "actor 16"
+                  "text": "终端服务器"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -526,7 +526,7 @@
                   "class": "element-shape hasNoOpenThreats isOutOfScope"
                 },
                 "text": {
-                  "text": "actor 17"
+                  "text": "分析间"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -549,7 +549,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 18",
+                      "text": "访问",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -610,7 +610,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 21",
+                      "text": "写入数据",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -671,7 +671,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 25",
+                      "text": "访问",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -761,7 +761,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 25",
+                      "text": "读取数据",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -800,7 +800,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 26",
+                      "text": "读取数据",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -834,7 +834,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 27",
+                      "text": "读取或下载数据",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -873,7 +873,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 28",
+                      "text": "写入或上传数据",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -912,7 +912,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 29",
+                      "text": "写入数据",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -946,7 +946,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 30",
+                      "text": "写入数据",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -985,7 +985,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 31",
+                      "text": "读取数据",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1019,7 +1019,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 32",
+                      "text": "读取数据",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1079,7 +1079,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 35",
+                      "text": "访问",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1118,7 +1118,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 36",
+                      "text": "读取数据",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1153,7 +1153,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 37",
+                      "text": "读取数据",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1169,6 +1169,40 @@
                 },
                 ".connection": {
                   "class": "connection hasNoOpenThreats isOutOfScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "53978e90-b32e-4ab9-85e2-49cf2789075e"
+              },
+              "target": {
+                "id": "dd68aa5c-d48b-4fd0-a942-c05396bc64d4"
+              },
+              "vertices": [],
+              "id": "43745eee-1efe-4624-92ed-ed4f06b021e5",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "传输文件/脚本等",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 43,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
                 }
               }
             }
