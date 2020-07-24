@@ -223,7 +223,7 @@
                 "y": 10
               },
               "target": {
-                "x": 1090,
+                "x": 1150,
                 "y": 730
               },
               "vertices": [
@@ -708,7 +708,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "actor 23"
+                  "text": "ACS云上应用"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -719,8 +719,8 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 970,
-                "y": 640
+                "x": 1100,
+                "y": 630
               },
               "target": {
                 "x": 460,
@@ -843,6 +843,8 @@
               ],
               "z": 32,
               "hasOpenThreats": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
