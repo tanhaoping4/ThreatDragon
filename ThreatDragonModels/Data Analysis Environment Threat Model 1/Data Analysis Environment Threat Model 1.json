@@ -219,25 +219,25 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 1140,
+                "x": 1060,
                 "y": 10
               },
               "target": {
-                "x": 1150,
-                "y": 730
+                "x": 1130,
+                "y": 770
               },
               "vertices": [
                 {
-                  "x": 980,
+                  "x": 950,
                   "y": 220
                 },
                 {
-                  "x": 1030,
-                  "y": 340
+                  "x": 980,
+                  "y": 350
                 },
                 {
-                  "x": 1080,
-                  "y": 420
+                  "x": 1030,
+                  "y": 450
                 },
                 {
                   "x": 1090,
@@ -1183,11 +1183,19 @@
               "target": {
                 "id": "dd68aa5c-d48b-4fd0-a942-c05396bc64d4"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 990,
+                  "y": 450
+                }
+              ],
               "id": "43745eee-1efe-4624-92ed-ed4f06b021e5",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.49233611231039864,
+                    "offset": 0.3969379186967459
+                  },
                   "attrs": {
                     "text": {
                       "text": "传输文件/脚本等",
@@ -1207,11 +1215,193 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 60,
+                "y": 440
+              },
+              "angle": 0,
+              "id": "c1ff40fa-b0eb-46af-8214-edf770adb8d3",
+              "z": 45,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "儒牛系统"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "c1ff40fa-b0eb-46af-8214-edf770adb8d3"
+              },
+              "target": {
+                "id": "dd68aa5c-d48b-4fd0-a942-c05396bc64d4"
+              },
+              "vertices": [
+                {
+                  "x": 410,
+                  "y": 500
+                }
+              ],
+              "id": "28da7d1e-a83c-4cc7-8212-2dfb56c344f4",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "数据导入",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 46,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "dd68aa5c-d48b-4fd0-a942-c05396bc64d4"
+              },
+              "target": {
+                "id": "c1ff40fa-b0eb-46af-8214-edf770adb8d3"
+              },
+              "vertices": [
+                {
+                  "x": 410,
+                  "y": 540
+                }
+              ],
+              "id": "22558a16-ed2c-41b5-b395-91a77ffb6963",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "数据导出",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 47,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "c1ff40fa-b0eb-46af-8214-edf770adb8d3"
+              },
+              "target": {
+                "id": "7111f331-cfdc-43c6-84a5-0a63b3ef2721"
+              },
+              "vertices": [
+                {
+                  "x": 380,
+                  "y": 660
+                }
+              ],
+              "id": "1d813cc6-42ad-462b-b955-a7cb52d1aef1",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "数据导出",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 48,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "7111f331-cfdc-43c6-84a5-0a63b3ef2721"
+              },
+              "target": {
+                "id": "c1ff40fa-b0eb-46af-8214-edf770adb8d3"
+              },
+              "vertices": [
+                {
+                  "x": 370,
+                  "y": 700
+                }
+              ],
+              "id": "4561d934-bdc0-4bde-a21c-c6f254d6f5e9",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "数据导入",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 49,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
         "size": {
-          "height": 610.6876831054688,
+          "height": 617.099365234375,
           "width": 1280
         }
       }
